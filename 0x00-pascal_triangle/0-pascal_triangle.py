@@ -1,4 +1,8 @@
+#!/usr/bin/python3
+"""pascal triangle module"""
+
 def pascal_triangle(n):
+    """the funciton that represents pascal triangle"""
     if n <= 0:
         return []
     triangle = [[1]]
