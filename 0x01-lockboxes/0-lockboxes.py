@@ -1,4 +1,9 @@
+#!/usr/bin/python3
+"""lockboxes module"""
+
+
 def canUnlockAll(boxes):
+    """function to unlock boxes"""
     unlocked_boxes = set([0])
     queue = [0]
 
